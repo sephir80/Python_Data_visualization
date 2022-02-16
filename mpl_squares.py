@@ -8,7 +8,8 @@ squares = [1, 4, 9, 16, 25]
 
 plt.style.use('seaborn')
 fig, ax = plt.subplots()  # The variable <<fig>> represents the entire figure or collection of plots that are generated
-ax.plot(input_values, squares, linewidth=3)
+ax.plot(input_values, squares, linewidth=3)  # Disegna una linea che passa per i punti
+ax.scatter(input_values, squares, s=100)     # Disegna un punto di size=s
 
 # Set chart title and label axes.
 ax.set_title("Square Numbers", fontsize=24)
