@@ -26,4 +26,5 @@ ax.axis([0, 1100, 0, 1100000])
 # Set size of tick labels
 ax.tick_params(axis='both', labelsize=8)
 
-plt.show()
+plt.show()  # to show
+# plt.savefig('squares_plot.png', bbox_inches='tight') # to save
